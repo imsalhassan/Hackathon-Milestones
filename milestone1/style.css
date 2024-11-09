@@ -1,0 +1,78 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #d1eef0;
+    margin: 0%;
+    padding: 200px;
+}
+.Resume{
+    display: flex;
+    background-color: #C5D3E8;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black(0,0,0,0.1);
+}
+.left-section{
+    background-color: #000B58;
+    color:white;
+    padding: 70px;
+    width: 40%;
+    text-align: center;
+    border-right: 4px solid #F0C1E1;
+    font-size: 24px;
+}
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #f35959;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 60px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3{
+    font-size: 32px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(4, 12, 232);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul{
+    list-style-type: fill round;
+    padding: 10%;
+    margin: 10px 0;
+}
+
+ul li{
+    margin: 10px 0;
+}
+
+.right-section{
+    padding: 70px;
+    width: 100%;
+    font-size: 24px;
+}
+
+button{
+    font-family: sans-serif;
+    border-radius: 10%;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 32px;
+    background-color: #CDC1FF;
+}
+
+button:hover{
+    background-color: #491af2;
+}
