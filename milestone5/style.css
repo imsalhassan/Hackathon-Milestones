@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f7f6;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resume-display {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+#resume-display img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#shareable-link {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #0066cc;
+}
+
+#shareable-link a {
+    text-decoration: none;
+    color: #0066cc;
+}
